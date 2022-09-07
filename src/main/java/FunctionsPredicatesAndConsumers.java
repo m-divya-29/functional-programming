@@ -5,7 +5,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
-public class FunctionsAndPredicates {
+public class FunctionsPredicatesAndConsumers {
     public static void main(String[] args) {
         //Predicate -> returns true or false, single parameter. Input type <T>
         Predicate<Integer> isEvenPredicate = new Predicate<Integer>() {
