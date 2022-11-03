@@ -22,6 +22,7 @@ public class SuppliersAndUnaryOperator {
             }
         };
         System.out.println(unaryOperator1.apply(300));
+        System.out.println("Random number:"+randomNumSupplier.get());
 
     }
 }
